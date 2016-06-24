@@ -43,6 +43,11 @@ section {
     height: 6px;
     border-radius: 20px;
     background-color: #8a6d3b;
+    
+}
+
+.icon-bar {
+    
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: rgba(100,45,16, 0.8);
@@ -68,6 +73,7 @@ section {
 }
 .navbar-toggle {
   padding: 0px;
+  border: none;
     
 }
 .navbar-default .navbar-toggle .collapse {
@@ -92,7 +98,8 @@ section {
     }
     .nav-custom {
     background-color: lightgrey;
-    opacity: .9;
+    background-size: full;
+    /*opacity: .9;*/
     border: transparent;
 
 }
@@ -132,42 +139,50 @@ button.navbar-toggle {
 
 .line_up_id_click { 
 border-top: 50px solid transparent;
-margin-top: -50px;
+margin-top: -20px;
 -webkit-background-clip: padding box;
 -moz-background-clip: padding;
 background-clip: padding-box;
 }
 
+header {
+    background: url('images/leaves_left_crop.png') no-repeat;
+}
+
             /*----------Fixed Background Scrolling Elements----------------*/
 .landing-box {
     position: relative;
-    height: 600px;
+    height: 110%;
     width: 100%;
     background: url('images/field_clouds_sky_sun1.png') no-repeat;
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
     overflow: hidden;
+    padding: 5px;
+    font-size: 90%;
 /*z-index covers the revealed footer*/
     /*z-index: 2;*/
 }
 .description_box_top {
-    height: 300px;
+    height: 100%;
     width: 100%;
-    /*background-color: hsla(85,52%,80%, .8);*/
+    background-color: hsla(285,15%,95%, .7);
     /*background-image: url('images/hyperionwholesale_logo.png');*/
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    margin-top: 20%;
-    border: 5px solid black;
-    border-radius: 10px;
-    overflow: hidden;
+    position: relative;
+    top: 40%;
+    margin-top: 10%;
+    border: 2px solid grey;
+    border-radius: 20px;
+    overflow: auto;
+
+
 }
 .description_box_top p {
-    text-align: center;
-    font-size: 110%;
+    text-align: left;
+    font-size: 210%;
     padding-top: 20px;
 }
 
@@ -194,9 +209,40 @@ background-clip: padding-box;
     border: 1px solid black;
  }
 
- .about_us {
+ .history {
     background-color: turquoise;
 }
+.what_we_do {
+
+}
+
+.prod img {
+    margin: 0 auto;
+}
+.prod-info {
+    border-top: 3px solid black;
+    padding: 10px;
+}
+.prod {
+    text-align: center;
+    overflow: hidden auto;
+}
+.prod_logo {
+    float: left;
+}
+
+.cntr_header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.map {
+    border: 3px solid black;
+
+}
+
+
 /*helps style the revealed footer with z-index*/
 /*.content {
     margin: 0 auto;
