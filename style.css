@@ -88,6 +88,11 @@ section {
     margin-top: 15px;
 
 }
+
+.navbar:hover {
+  opacity: 1;
+}
+
 @media (max-width: 811px){
     .navbar-brand h1 {
         font-size: 22px;
@@ -202,14 +207,18 @@ header {
     width: 100%;
     /*background: url('images/field_clouds_sky_sun1.png') no-repeat;*/
     background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
-    overflow: hidden;
+    /*background-position: top center;*/
+    /*background-attachment: fixed;*/
+    /*overflow: hidden;*/
     /*padding: 5px;*/
-    font-size: 90%;
-    top:70px;
+    /*font-size: 90%;*/
+    /*top:70px;*/
 /*z-index covers the revealed footer*/
     /*z-index: 2;*/
+}
+
+.carousel {
+    height: 400px;
 }
 
 .carousel img {
@@ -292,7 +301,7 @@ header {
 
 .cntr_header {
     text-align: center;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 
