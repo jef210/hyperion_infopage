@@ -32,7 +32,8 @@ a:hover {
 }
 
 section {
-    border-bottom: 5px solid black;
+    /*border-bottom: 25px solid white;*/
+    /*margin-bottom: 25px;*/
 }
 #navbar-brand-top {
     color: black;
@@ -93,16 +94,44 @@ section {
         margin-top: 25px
     }
     .navbar-brand img {
-        width: 99%;
+        width: 89%;
         height: auto;
     }
     .nav-custom {
-    background-color: lightgrey;
-    background-size: full;
-    /*opacity: .9;*/
-    border: transparent;
+        background-color: lightgrey;
+        background-size: full;
+        /*opacity: .9;*/
+        border: transparent;
 
+    }
+
+  /*  #nav-logo {
+        width: 200px;
+        height: 100px;
+    }*/
 }
+
+@media (max-width: 511px){
+    .navbar-brand h1 {
+        font-size: 22px;
+        margin-top: 25px
+    }
+    .navbar-brand img {
+        width: 69%;
+        height: auto;
+    }
+    .nav-custom {
+        background-color: lightgrey;
+        background-size: full;
+        /*opacity: .9;*/
+        border: transparent;
+
+    }
+
+  /*  #nav-logo {
+        width: 200px;
+        height: 100px;
+    }*/
 }
 /*.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -112,13 +141,13 @@ button.navbar-toggle {
     opacity: .9;
     margin-top: 20px;
 }
-#nav-logo {
+/*#nav-logo {
     max-height: 190px;
     max-width: 100%;
     margin-top: 0px;
     display: inline-block;
     float: left;
-}
+}*/
 .navbar-default .navbar-text {
     margin-top: 10px;
     display: inline-block;
@@ -138,8 +167,8 @@ button.navbar-toggle {
 
 
 .line_up_id_click { 
-border-top: 50px solid transparent;
-margin-top: -20px;
+border-top: 60px solid transparent;
+margin-top: -65px;
 -webkit-background-clip: padding box;
 -moz-background-clip: padding;
 background-clip: padding-box;
@@ -149,18 +178,36 @@ header {
     background: url('images/leaves_left_crop.png') no-repeat;
 }
 
-            /*----------Fixed Background Scrolling Elements----------------*/
-.landing-box {
+/*.carousel {
     position: relative;
     height: 110%;
     width: 100%;
-    background: url('images/field_clouds_sky_sun1.png') no-repeat;
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
     overflow: hidden;
-    padding: 5px;
+}*/
+
+.fixed-section {
+    position: fixed;
+    top: 0;
+    z-index: -99;
+}
+
+
+            /*----------Fixed Background Scrolling Elements----------------*/
+.landing-box {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    /*background: url('images/field_clouds_sky_sun1.png') no-repeat;*/
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+    overflow: hidden;
+    /*padding: 5px;*/
     font-size: 90%;
+    top:70px;
 /*z-index covers the revealed footer*/
     /*z-index: 2;*/
 }
@@ -174,8 +221,8 @@ header {
     position: relative;
     top: 40%;
     margin-top: 10%;
-    border: 2px solid grey;
-    border-radius: 20px;
+    /*border: 2px solid grey;*/
+    /*border-radius: 20px;*/
     overflow: auto;
 
 
@@ -209,11 +256,17 @@ header {
     border: 1px solid black;
  }
 
- .history {
-    background-color: turquoise;
+ .about_us {
+    background-color: ghostwhite;
 }
 .what_we_do {
+    background-color: ghostwhite;
 
+}
+
+.products {
+    background-color: ghostwhite;
+    padding-top: -20px; 
 }
 
 .prod img {
@@ -221,7 +274,7 @@ header {
 }
 .prod-info {
     border-top: 3px solid black;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 .prod {
     text-align: center;
@@ -241,6 +294,33 @@ header {
     border: 3px solid black;
 
 }
+
+#footer{
+    padding: 30px;
+}
+
+footer {
+    background-color: lightgrey;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0px;
+    z-index: -99;
+    /*height: 200px;*/
+}
+
+.footer_stuff {
+    /*max-width: 700px;*/
+    margin: 0 auto;
+}
+
+footer ul {
+    list-style: none;
+
+
 
 
 /*helps style the revealed footer with z-index*/

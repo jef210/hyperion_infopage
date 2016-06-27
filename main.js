@@ -38,16 +38,16 @@ $(window).scroll(function(){
 
 
   // Landing Elements
-  if(wScroll > $('.about_img').offset().top - ($(window).height() / 3.5)) {
-// console.log('hi');
-    $('.about_img figure').each(function(i){
+//   if(wScroll > $('.about_img').offset().top - ($(window).height() / 3.5)) {
+// // console.log('hi');
+//     $('.about_img figure').each(function(i){
 
-      setTimeout(function(){
-        $('.about_img figure').eq(i).addClass('is-showing');
-      }, (700 * (Math.exp(i * 0.14))) - 600);
-    });
+//       setTimeout(function(){
+//         $('.about_img figure').eq(i).addClass('is-showing');
+//       }, (700 * (Math.exp(i * 0.14))) - 600);
+//     });
 
-  }
+//   }
 
 
   // Promoscope
@@ -64,17 +64,17 @@ $(window).scroll(function(){
 
   // // Floating Elements
 
-  if(wScroll > $('.blog-posts').offset().top - $(window).height()){
+  // if(wScroll > $('.blog-posts').offset().top - $(window).height()){
 
-    var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350)).toFixed();
+  //   var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350)).toFixed();
 
-    $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
+  //   $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
-    // $('.post-2').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 5) + 'px'});
+  //   // $('.post-2').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 5) + 'px'});
 
-    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
+  //   $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
-  }
+  // }
 });
 });
 
