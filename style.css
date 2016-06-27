@@ -65,7 +65,7 @@ section {
 }
 .navbar {
     border-bottom: 5px solid darkslategrey;
-    background-color: rgba(141,185,53, .8); 
+    background-color: rgba(141,185,53, .9); 
     height: 60px;
 
 }
@@ -175,7 +175,7 @@ background-clip: padding-box;
 }
 
 header {
-    background: url('images/leaves_left_crop.png') no-repeat;
+    /*background: url('images/leaves_left_crop.png') no-repeat;*/
 }
 
 /*.carousel {
@@ -202,7 +202,7 @@ header {
     width: 100%;
     /*background: url('images/field_clouds_sky_sun1.png') no-repeat;*/
     background-size: cover;
-    background-position: top left;
+    background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
     /*padding: 5px;*/
@@ -211,6 +211,12 @@ header {
 /*z-index covers the revealed footer*/
     /*z-index: 2;*/
 }
+
+.carousel img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .description_box_top {
     height: 100%;
     width: 100%;
