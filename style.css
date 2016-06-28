@@ -311,12 +311,12 @@ header {
 }
 
 .card-img-top {
-    border:3px solid grey;
+    /*border:3px solid grey;*/
     border-radius: 5px 80px 5px;
 }
 
 .card-img-top:hover{
-    border:5px solid grey;
+    /*border:5px solid grey;*/
     /*border-radius: 5px;*/
 }
 
@@ -344,6 +344,11 @@ header {
 .map {
     border: 3px solid black;
 
+}
+
+.team {
+    text-align: center;
+    /*border: 2px solid black;*/
 }
 
 #footer{
