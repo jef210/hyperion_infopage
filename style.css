@@ -1,3 +1,5 @@
+/*----------------GLOBALS----------------------*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -34,6 +36,28 @@ a:hover {
 section {
 
 }
+
+.cntr {
+    text-align: center;
+}
+
+.classWithPad { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+.border {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.cntr_header {
+    text-align: center;    
+}
+
+/*----------------------NAV BAR----------------------*/
+
 #navbar-brand-top {
     color: black;
 }
@@ -86,7 +110,6 @@ section {
     margin-top: 15px;
 
 }
-
 
 @media (max-width: 811px){
     .navbar-brand h1 {
@@ -160,6 +183,8 @@ header {
 }
 
 
+/*----------------------LANDING / CAROUSEL---------------------*/
+
 .landing-box {
     position: relative;
     height: 600px;
@@ -185,7 +210,6 @@ header {
     background-attachment: fixed;
     overflow: hidden;
 }
-            /*----------Fixed Background Scrolling Elements----------------*/
 
 .carousel img {
     min-width: 100%;
@@ -195,27 +219,21 @@ header {
     size: full;
 }
 
-
-
-    .carousel {
+.carousel {
 
   margin:0 auto 60px;
 }
 
 .carousel .item {
-
-
     width:100%;
     height:auto;
 }
 .carousel-inner > .item > img {
-
-
   min-width:100%;
   height:auto;
 }
 
-
+/*--------------------------ABOUT US---------------------------*/
 
 .hw_van {
     width: 760px;
@@ -226,22 +244,19 @@ header {
     background-repeat: no-repeat;
     position: absolute;
     margin-left: -20px;
-
-  
- }
-
- .bg-warning{
-    text-align: center;
-    border: 1px solid black;
  }
 
  .about_us {
     background-color: ghostwhite;
 }
+
+/*--------------------------------WHAT WE DO----------------------*/
 .what_we_do {
     background-color: ghostwhite;
 
 }
+
+/*--------------------------------PRODUCTS-------------------------*/
 
 .products {
     background-color: ghostwhite;
@@ -249,50 +264,41 @@ header {
 }
 
 .card-img-top {
-
     border-radius: 5px 80px 5px;
 }
 
 .card-img-top:hover{
-
+    /*margin:2px;*/ /*shit yeah*/
 }
 
 .prod img {
     margin: 0 auto;
 }
+
 .prod-info {
     border-top: 3px solid black;
-    
 }
+
 .prod {
     text-align: center;
     overflow: hidden auto;
 }
+
 .prod_logo {
     float: left;
 }
 
-.cntr_header {
-    text-align: center;
-    
-}
+/*-----------------------TEAM SECTION-------------------------------*/
 
+
+
+/*------------------------TERRITORY-----------------------------------*/
 
 .map {
     border: 3px solid black;
-
 }
 
-.classWithPad { 
-    margin: 5px; 
-    padding: 5px; 
-}
-
-.border {
-    /*text-align: center;*/
-    border: 2px solid black;
-    border-radius: 5px;
-}
+/*-------------------------Footer------------------------------*/
 
 #footer{
     padding: 30px;
