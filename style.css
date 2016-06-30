@@ -13,9 +13,10 @@ body {
     padding: 0px;
 }
 .row {
-    margin: 0px;
-    padding: 0px;
+    /*margin: 0px;
+    padding: 0px;*/
 }
+
 h1 {
     
 }
@@ -346,9 +347,15 @@ header {
 
 }
 
-.team {
-    text-align: center;
-    /*border: 2px solid black;*/
+.classWithPad { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+.border {
+    /*text-align: center;*/
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 #footer{
