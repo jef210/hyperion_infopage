@@ -27,7 +27,8 @@ img {
 }
 
 a {
-    color: darkslategrey;;
+    color: darkslategrey;
+    cursor: pointer;
 }
 a:hover {
     color: slategrey;
@@ -221,10 +222,7 @@ header {
     /*z-index: 99;*/
 }
 
-/*.carousel {
 
-  margin:0 auto 60px;
-}*/
 
 .carousel .item {
     width:100%;
@@ -278,6 +276,10 @@ header {
     /*margin:2px;*/ /*shit yeah*/
 }
 
+.card {
+    padding: 5px;
+}
+
 .prod img {
     margin: 0 auto;
 }
@@ -308,27 +310,29 @@ header {
 /*-------------------------Footer------------------------------*/
 
 #footer{
-    padding: 30px;
 }
 
 footer {
+    /*padding: 30px;*/
     background-color: lightgrey;
     margin: 0 auto;
     text-align: center;
     color: black;
     position: relative;
-    bottom: 0;
+    min-height: 300px;
+   /* bottom: 0;
     width: 100%;
     padding: 30px 0px;
-    z-index: -99;
+    z-index: -99;*/
     /*height: 200px;*/
 }
 
 .footer_stuff {
     /*max-width: 700px;*/
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 footer ul {
     list-style: none;
-
+}
