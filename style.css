@@ -189,23 +189,25 @@ header {
 .landing-box {
     /*margin-top: 20px;*/
     position: relative;
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
 
 .fixed-section {
     /*min-height: 600px;*/
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     z-index: -99;
 }
 
 .carousel {
     background: url('images/mountain-valley-1.jpg') no-repeat;
-    position: relative;
+    position: fixed;
     min-height: 400px;
+    max-height: 600px;
     width: 100%;
+    height:100%;
     background-size: full;
     background-position: bottom center;
     background-attachment: fixed;
@@ -213,13 +215,9 @@ header {
 }
 
 .carousel img {
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 90%;
-    max-height: 90%;
+/**/
     position: bottom center;
     size: cover;
-    /*z-index: 99;*/
 }
 
 
@@ -232,6 +230,7 @@ header {
     margin-top: 70px;
     min-width:100%;
     height:100%;
+    top:30%;
   /*max-height: 600px;*/
 }
 
@@ -251,7 +250,7 @@ header {
 
  .about_us {
     padding-top: 20px;
-    /*background-color: LightGoldenRodYellow*/
+    background-color: ghostwhite;
 ;
 }
 
@@ -299,7 +298,9 @@ header {
 
 /*-----------------------TEAM SECTION-------------------------------*/
 
-
+.our_team {
+    background-color: white;
+}
 
 /*------------------------TERRITORY-----------------------------------*/
 
