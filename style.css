@@ -199,19 +199,20 @@ header {
     /*position: fixed;*/
     top: 0;
     z-index: -99;
+    background: url('images/mountain-valley-1.jpg') no-repeat;
+    background-size: full;
+    background-position: bottom center;
+    background-attachment: fixed;
 }
 
 .carousel {
-    background: url('images/mountain-valley-1.jpg') no-repeat;
     position: fixed;
     min-height: 400px;
     max-height: 600px;
     width: 100%;
     height:100%;
-    background-size: full;
-    background-position: bottom center;
-    background-attachment: fixed;
     overflow: hidden;
+    background-color: transparent;
 }
 
 .carousel img {
@@ -234,6 +235,30 @@ header {
   /*max-height: 600px;*/
 }
 
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
 
 /*--------------------------ABOUT US---------------------------*/
 
