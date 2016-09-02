@@ -1,0 +1,37 @@
+todo
+ ☐ Slider Stuff
+    ☐ fix back ground image
+    ☐ fix sizing stuff with slides
+    ☐ make trasition correct
+    ☐ create slides
+      ☐ line up products 
+      ☐ line up sizing stuff (write it all down)
+      ☐ 
+
+
+ ☐ Section Backgrounds
+   ☐ find images
+   ☐ record size of images for easy retrieval
+   ☐ create image 1
+     ☐ size images 
+   ☐ create image 2
+     ☐ size images 
+   ☐ create image 3
+     ☐ size images 
+   ☐ create image 4
+     ☐ size images 
+   ☐ create image 5
+     ☐ size images 
+
+   ☐ Code Images
+     ☐ sized and positioned properly
+       ☐ fixed position parallax style
+     ☐ cross browser stuff
+
+ ☐ Section Text
+   ☐ Centered
+     ☐ media queries (40-70 char per line)
+     ☐ proper colors
+     ☐ proper fonts and sizes
+
+  

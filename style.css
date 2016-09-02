@@ -321,6 +321,18 @@ header {
     float: left;
 }
 
+/*----------------MANUFACTURERs---------------------*/
+
+#manufacturers {
+    padding: 10px 15px 0px 15px;
+    background-color: ghostwhite;
+}
+
+.manufacturersClass {
+    border-bottom: 3px solid black;
+
+}
+
 /*-----------------------TEAM SECTION-------------------------------*/
 
 .our_team {
