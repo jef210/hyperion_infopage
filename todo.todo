@@ -22,6 +22,7 @@ todo
      ☐ size images 
    ☐ create image 5
      ☐ size images 
+   ☐ fixed position scrolling
 
    ☐ Code Images
      ☐ sized and positioned properly
@@ -32,6 +33,20 @@ todo
    ☐ Centered
      ☐ media queries (40-70 char per line)
      ☐ proper colors
-     ☐ proper fonts and sizes
+     ☐ proper fonts and sizes 
+
+
+
+ 
+ ☐ Product Cards 
+   ☐ Get cards set in rows properly
+   ☐ add product info to cards
+   ☐ new images
+     ☐ Properly sized - svg or png
+     ☐ background images
+       ☐ 
+       
+
+ ☐  
 
   
