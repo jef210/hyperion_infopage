@@ -35,7 +35,6 @@ a:hover {
 }
 
 section {
-
 }
 
 .cntr {
@@ -112,41 +111,7 @@ section {
 
 }
 
-@media (max-width: 811px){
-    .navbar-brand h1 {
-        font-size: 22px;
-        margin-top: 25px
-    }
-    .navbar-brand img {
-        width: 89%;
-        height: auto;
-    }
-    .nav-custom {
-        background-color: lightgrey;
-        background-size: full;
-        /*opacity: .9;*/
-        border: transparent;
 
-    }
-}
-
-@media (max-width: 511px){
-    .navbar-brand h1 {
-        font-size: 22px;
-        margin-top: 25px
-    }
-    .navbar-brand img {
-        width: 69%;
-        height: auto;
-    }
-    .nav-custom {
-        background-color: lightgrey;
-        background-size: full;
-        /*opacity: .9;*/
-        border: transparent;
-
-    }
-}
 
 button.navbar-toggle {
     opacity: .9;
@@ -262,6 +227,9 @@ header {
 
 /*--------------------------ABOUT US---------------------------*/
 
+.about_us p {
+    padding: 0px 80px 0px 80px;
+}
 .hw_van {
     width: 760px;
     height: 650px;
@@ -281,8 +249,19 @@ header {
 
 /*--------------------------------WHAT WE DO----------------------*/
 .what_we_do {
-    background-color: ghostwhite;
+    background-color: lightgrey;
 
+}
+
+.wwd_blurb {
+    font-size: 24px;
+    padding: 0px 80px 0px 80px;
+
+}
+
+.what_we_do h3 {
+    text-decoration: underline;
+    text-align: center;
 }
 
 /*--------------------------------PRODUCTS-------------------------*/
@@ -373,4 +352,49 @@ footer {
 
 footer ul {
     list-style: none;
+}
+
+
+/*------------------Media Queries-----------------------------*/
+
+
+@media (max-width: 811px){
+    .navbar-brand h1 {
+        font-size: 22px;
+        margin-top: 25px
+    }
+    .navbar-brand img {
+        width: 89%;
+        height: auto;
+    }
+    .nav-custom {
+        background-color: lightgrey;
+        background-size: full;
+        /*opacity: .9;*/
+        border: transparent;
+    }
+    .about_us p {
+    padding: 0px 40px 0px 40px;
+    }
+}
+
+@media (max-width: 511px){
+    .navbar-brand h1 {
+        font-size: 22px;
+        margin-top: 25px
+    }
+    .navbar-brand img {
+        width: 69%;
+        height: auto;
+    }
+    .nav-custom {
+        background-color: lightgrey;
+        background-size: full;
+        /*opacity: .9;*/
+        border: transparent;
+
+    }
+    .about_us p {
+    padding: 0px 20px 0px 20px;
+    }
 }
