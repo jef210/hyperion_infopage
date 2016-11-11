@@ -42,12 +42,12 @@ section {
 }
 
 .classWithPad { 
-    margin: 5px; 
-    padding: 5px; 
+    margin: 45px; 
+    padding: 45px; 
 }
 
 .border {
-    border: 2px solid darkslategrey;
+    border: 12px solid darkslategrey;
     border-radius: 15px;
     /*background-color: powderblue;*/
 }
