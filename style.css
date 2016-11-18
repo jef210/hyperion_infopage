@@ -164,7 +164,7 @@ header {
     /*position: fixed;*/
     top: 0;
     z-index: -99;
-    background: url('images/mountain-valley-1.jpg') no-repeat;
+    /*background: url('images/mountain-valley-1.jpg') no-repeat;*/
     background-size: full;
     background-position: bottom center;
     background-attachment: fixed;
