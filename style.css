@@ -8,9 +8,12 @@
 body {
     color: black;
     font-family: 'Avenir Next';
-    /*background-color: LightCyan;*/
+    /*background-color: white;*/
+    /*background: url('images/mountain-valley-1.jpg') no-repeat;*/
+    /*background-size: cover;*/
+    width: 100%;
 }
-.container {
+.container-fluid {
     margin: 0px;
     padding: 0px;
 }
@@ -34,20 +37,41 @@ a:hover {
     color: slategrey;
 }
 
-section {
-}
 
 .cntr {
     text-align: center;
 }
 
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -99;
+}
+
+section {
+    /*background-color: white;*/
+}
+
 .classWithPad { 
-    margin: 45px; 
-    padding: 45px; 
+    margin: 25px; 
+    padding: 25px; 
 }
 
 .border {
-    border: 10px solid darkslategrey;
+    border: 5px solid darkslategrey;
     border-radius: 15px;
     /*background-color: powderblue;*/
 }
@@ -61,6 +85,7 @@ section {
 #navbar-brand-top {
     color: black;
 }
+
 .navbar-toggle .icon-bar {
     display: block;
     width: 71px;
@@ -74,7 +99,7 @@ section {
     
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: rgba(100,45,16, 0.8);
+    background-color: rgba(100,45,16,0.8);
 }
 .navbar-default .navbar-nav>li>a {
     color: darkslategrey;
@@ -159,19 +184,19 @@ header {
 }
 
 
-.fixed-section {
-    /*min-height: 600px;*/
-    /*position: fixed;*/
+/*.fixed-section {
+    min-height: 600px;
+    position: fixed;
     top: 0;
     z-index: -99;
-    /*background: url('images/mountain-valley-1.jpg') no-repeat;*/
+    background: url('images/mountain-valley-1.jpg') no-repeat;
     background-size: full;
     background-position: bottom center;
     background-attachment: fixed;
-}
+}*/
 
 .carousel {
-    position: fixed;
+    position: relative;
     min-height: 400px;
     max-height: 600px;
     width: 100%;
@@ -181,7 +206,7 @@ header {
 }
 
 .carousel img {
-/**/
+
     position: bottom center;
     size: cover;
 }
@@ -198,7 +223,8 @@ header {
     height:100%;
     top:30%;
   /*max-height: 600px;*/
-}
+  }
+
 
 
 .carousel-fade .carousel-inner .item {
@@ -227,13 +253,20 @@ header {
 
 /*--------------------------ABOUT US---------------------------*/
 
+.about_us {
+    /*background-color: lightgrey;*/
+    padding-top: 20px;
+    
+}
+
 .about_us p {
     padding: 0px 80px 0px 80px;
 }
+
 .hw_van {
     width: 760px;
     height: 650px;
-    /*background-color: hsla(187,52%,80%, .8);*/
+    background-color: hsla(187,52%,80%, .8);
     background-image: url('images/hyperionvan2C.png');
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -241,15 +274,16 @@ header {
     margin-left: -20px;
  }
 
- .about_us {
+
+#about_txt p {
     padding-top: 20px;
-    background-color: ghostwhite;
-;
+    /*background-color: ghostwhite;*/
 }
+
 
 /*--------------------------------WHAT WE DO----------------------*/
 .what_we_do {
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
 
 }
 
@@ -267,12 +301,13 @@ header {
 /*--------------------------------PRODUCTS-------------------------*/
 
 .products {
-    background-color: ghostwhite;
+    /*background-color: ghostwhite;*/
     padding-top: -20px; 
 }
 
 .card-img-top {
-    border-radius: 5px 80px 5px;
+    border-radius: 5px;
+    border: 2px solid darkslategrey;
 }
 
 .card-img-top:hover{
@@ -281,6 +316,7 @@ header {
 
 .card {
     padding: 5px;
+    background-color: ghostwhite;
 }
 
 .prod img {
@@ -304,7 +340,7 @@ header {
 
 #manufacturers {
     padding: 10px 15px 0px 15px;
-    background-color: ghostwhite;
+    /*background-color: ghostwhite;*/
 }
 
 .manufacturersClass {
@@ -315,7 +351,7 @@ header {
 /*-----------------------TEAM SECTION-------------------------------*/
 
 .our_team {
-    background-color: white;
+    /*background-color: white;*/
 }
 
 /*------------------------TERRITORY-----------------------------------*/
